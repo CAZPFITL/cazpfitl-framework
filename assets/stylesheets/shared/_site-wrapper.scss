@@ -1,0 +1,39 @@
+.site-wrapper-response {
+	background: $white;
+	position: relative;
+	font-family: $font-primary;
+	height: inherit;
+
+	.container {
+		display: block;
+		max-width: 900px;
+		margin: auto;
+		padding: 80px 0px;
+
+		.welcome {
+			padding: 0px 0px 20px;
+		}
+		
+		.signature {
+			display: block;
+			width: 100%;
+			text-align: right;
+			font-style: italic;
+			padding-top: 60px;
+			padding-right: 20%;
+			font-size: 1.5em;
+		}
+	}
+
+	.display {
+		width: 100%;
+		height: auto;
+	}
+
+	a {
+		transition: 0.2s;
+		&:hover {
+			transition: 0.2s;
+		}
+	}
+}

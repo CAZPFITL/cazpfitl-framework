@@ -1,0 +1,97 @@
+.nav-container {
+
+	display                   : flex;
+	justify-content           : space-between;
+	width                     : 100%;
+	height                    : 54px;
+	animation                 : navBackground2;
+	background                : $color-orange;
+	box-shadow                : inset 0px 0px 25px -2px $color-black-o2, 0px 0px 6px -2px $color-black-o9;
+	animation-duration        : 0.1s;
+	transition                : $hover-2;
+	align-items               : center;
+	position                  : absolute;
+	z-index                   : 1;
+
+	.logo-container, .nav-menu {
+
+		height                : 100%;
+		cursor                : pointer;
+		display               : flex;
+		align-items           : center;
+
+	}
+
+	.logo-container {
+
+		font-family           : $font-primary;
+		font-size             : $font-size-4;
+		text-shadow           : 1px 1px 2px rgba(56, 56, 56, 0.7);
+		cursor                : pointer;
+		padding               : 0px 20px;
+
+		.logo {
+
+			text-shadow       : 1px 1px 0px $color-black-o3, 2px 2px 0px $color-black-o2, 3px 3px 0px $color-black-o1;
+			font-size         : $font-size-5;
+
+		}
+
+		.logo-a {
+
+			color             : $color-white;
+
+		}
+
+		.logo-b {
+
+			color             : $color-blue;
+			transition        : $hover-4;
+
+		}
+
+	}
+
+	.nav-menu {
+
+		.link {
+			display           : flex;
+			align-items       : center;
+			height            : 100%;
+			font-family       : $font-primary;
+			font-size         : $font-size-4;
+			color             : $white;
+			cursor            : pointer;
+			padding           : 0px 20px;
+
+			&:last-child {
+				padding-right : 40px;
+			}
+
+
+			&:hover {
+				color         : $color-orange;
+			}
+
+		}
+
+	}
+
+	&:hover {
+
+		animation             : navBackground;
+		animation-fill-mode   : forwards;
+		animation-duration    : 0.1s;
+
+		.logo-container {
+
+			.logo-b {
+				color         : $color-orange;
+				transition    : $hover-2;
+			}
+
+		}
+
+	}
+
+}

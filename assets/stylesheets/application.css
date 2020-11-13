@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@keyframes navBackground {
+  0% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 96%, #1d5faa 100%); }
+  4% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 92%, #1d5faa 96%); }
+  8% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 88%, #1d5faa 92%); }
+  12% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 84%, #1d5faa 88%); }
+  16% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 80%, #1d5faa 84%); }
+  20% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 76%, #1d5faa 80%); }
+  24% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 72%, #1d5faa 76%); }
+  28% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 68%, #1d5faa 72%); }
+  32% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 64%, #1d5faa 68%); }
+  36% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 60%, #1d5faa 64%); }
+  40% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 56%, #1d5faa 60%); }
+  44% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 52%, #1d5faa 56%); }
+  48% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 48%, #1d5faa 52%); }
+  52% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 44%, #1d5faa 48%); }
+  56% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 40%, #1d5faa 44%); }
+  60% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 36%, #1d5faa 40%); }
+  64% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 32%, #1d5faa 36%); }
+  68% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 28%, #1d5faa 32%); }
+  72% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 24%, #1d5faa 28%); }
+  76% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 20%, #1d5faa 24%); }
+  80% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 16%, #1d5faa 20%); }
+  84% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 12%, #1d5faa 16%); }
+  88% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 8%, #1d5faa 12%); }
+  92% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 4%, #1d5faa 8%); }
+  96% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 0%, #1d5faa 4%); }
+  100% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 0%, #1d5faa 0%); } }
+@keyframes navBackground2 {
+  100% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 96%, #1d5faa 100%); }
+  96% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 92%, #1d5faa 96%); }
+  92% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 88%, #1d5faa 92%); }
+  88% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 84%, #1d5faa 88%); }
+  84% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 80%, #1d5faa 84%); }
+  80% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 76%, #1d5faa 80%); }
+  76% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 72%, #1d5faa 76%); }
+  72% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 68%, #1d5faa 72%); }
+  68% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 64%, #1d5faa 68%); }
+  64% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 60%, #1d5faa 64%); }
+  60% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 56%, #1d5faa 60%); }
+  56% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 52%, #1d5faa 56%); }
+  52% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 48%, #1d5faa 52%); }
+  48% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 44%, #1d5faa 48%); }
+  44% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 40%, #1d5faa 44%); }
+  40% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 36%, #1d5faa 40%); }
+  36% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 32%, #1d5faa 36%); }
+  32% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 28%, #1d5faa 32%); }
+  28% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 24%, #1d5faa 28%); }
+  24% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 20%, #1d5faa 24%); }
+  20% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 16%, #1d5faa 20%); }
+  16% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 12%, #1d5faa 16%); }
+  12% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 8%, #1d5faa 12%); }
+  8% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 4%, #1d5faa 8%); }
+  4% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 0%, #1d5faa 4%); }
+  0% {
+    background: #fb7f0e;
+    background: linear-gradient(90deg, #fb7f0e 0%, #1d5faa 0%); } }
+@keyframes move {
+  0% {
+    top: 0px; }
+  20% {
+    top: -50px; }
+  40% {
+    top: -100px; }
+  60% {
+    top: -150px; }
+  80% {
+    top: -200px; } }
+@-webkit-keyframes move {
+  0% {
+    top: 0px; }
+  20% {
+    top: -50px; }
+  40% {
+    top: -100px; }
+  60% {
+    top: -150px; }
+  80% {
+    top: -200px; } }
+@-moz-keyframes move {
+  0% {
+    top: 0px; }
+  20% {
+    top: -50px; }
+  40% {
+    top: -100px; }
+  60% {
+    top: -150px; }
+  80% {
+    top: -200px; } }
+@-o-keyframes move {
+  0% {
+    top: 0px; }
+  20% {
+    top: -50px; }
+  40% {
+    top: -100px; }
+  60% {
+    top: -150px; }
+  80% {
+    top: -200px; } }
+@keyframes move {
+  0% {
+    top: 0px; }
+  20% {
+    top: -50px; }
+  40% {
+    top: -100px; }
+  60% {
+    top: -150px; }
+  80% {
+    top: -200px; } }
+html {
+  box-sizing: border-box; }
+
+h1, h2, h3, h4, h5 {
+  margin: 0px; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.site-wrapper-response {
+  background: #fafafa;
+  position: relative;
+  font-family: "Hind Madurai", sans-serif;
+  height: inherit; }
+  .site-wrapper-response .container {
+    display: block;
+    max-width: 900px;
+    margin: auto;
+    padding: 80px 0px; }
+    .site-wrapper-response .container .welcome {
+      padding: 0px 0px 20px; }
+    .site-wrapper-response .container .signature {
+      display: block;
+      width: 100%;
+      text-align: right;
+      font-style: italic;
+      padding-top: 60px;
+      padding-right: 20%;
+      font-size: 1.5em; }
+  .site-wrapper-response .display {
+    width: 100%;
+    height: auto; }
+  .site-wrapper-response a {
+    transition: 0.2s; }
+    .site-wrapper-response a:hover {
+      transition: 0.2s; }
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 54px;
+  animation: navBackground2;
+  background: #fb7f0e;
+  box-shadow: inset 0px 0px 25px -2px rgba(0, 0, 0, 0.2), 0px 0px 6px -2px rgba(0, 0, 0, 0.9);
+  animation-duration: 0.1s;
+  transition: all 0.15s ease-in-out;
+  align-items: center;
+  position: absolute;
+  z-index: 1; }
+  .nav-container .logo-container, .nav-container .nav-menu {
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center; }
+  .nav-container .logo-container {
+    font-family: "Hind Madurai", sans-serif;
+    font-size: 1.4em;
+    text-shadow: 1px 1px 2px rgba(56, 56, 56, 0.7);
+    cursor: pointer;
+    padding: 0px 20px; }
+    .nav-container .logo-container .logo {
+      text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3), 2px 2px 0px rgba(0, 0, 0, 0.2), 3px 3px 0px rgba(0, 0, 0, 0.1);
+      font-size: 1.6em; }
+    .nav-container .logo-container .logo-a {
+      color: white; }
+    .nav-container .logo-container .logo-b {
+      color: #1d5faa;
+      transition: all 0.25s ease-in-out; }
+  .nav-container .nav-menu .link {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-family: "Hind Madurai", sans-serif;
+    font-size: 1.4em;
+    color: #fafafa;
+    cursor: pointer;
+    padding: 0px 20px; }
+    .nav-container .nav-menu .link:last-child {
+      padding-right: 40px; }
+    .nav-container .nav-menu .link:hover {
+      color: #fb7f0e; }
+  .nav-container:hover {
+    animation: navBackground;
+    animation-fill-mode: forwards;
+    animation-duration: 0.1s; }
+    .nav-container:hover .logo-container .logo-b {
+      color: #fb7f0e;
+      transition: all 0.15s ease-in-out; }
+
+.whatsapp-content {
+  display: block;
+  width: 190px;
+  height: auto;
+  padding: 20px;
+  text-align: center; }
+  .whatsapp-content .link {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    background: #fafafa; }
+    .whatsapp-content .link .display {
+      margin: auto; }
+
+/*# sourceMappingURL=application.css.map */
