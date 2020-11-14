@@ -3,7 +3,6 @@
 ?>
 
 <div class="container">
-    <a class="venta">venta</a>
     <h1 class="welcome">¡WELCOME!</h1>
     <p>This is my micro-framework, It allows you a fast deployment of pages using an array to declare.</p>
     <p>It has a system that allows to create dynamic html link tags (it uses the first class_</p>
@@ -21,6 +20,11 @@
     <p>As you can see, this framework uses #hashes to set the locations</p>
     <p>So for links you have to add a link tag. The first set class will be read by the framework</p>
     <p>and automatically send the user to the page named in positions array.</p> 
+    <br>
+    <a class="link">link</a>
+    <a class="nofile">no file</a>
+    <a class="404">404</a>
+    <a href="https://www.google.com/" class="venta">External Link</a>
     <br>
     <h2 class="welcome">One last thing</h3>
     <p>You can create PHP objects if you want more order with those forms.</p>

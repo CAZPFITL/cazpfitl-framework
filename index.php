@@ -4,11 +4,9 @@
 	 * SET POSITIONS
 	 **/ 
 	$positions = [
-		"home",
-		"detalles",
-		"venta",
-		"renta",
-		"propiedades"
+		"home", /* => This will be the home page!! */
+		"link",
+		"nofile"
 	];
 
 	include ('assets/php/functions.php');

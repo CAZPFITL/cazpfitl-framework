@@ -15,8 +15,17 @@ function declarePageCalls() {
 	/**
 	 * Read the click and process the class SettedPositions to reload the page
 	 */
-	$('a').click(function(event) {
-		clickToProcess($(this).attr('class'));
+	$('a').on('click auxclick contextmenu', function(event) {
+		//prevent a tag link default action 
+		event.preventDefault();
+		/**
+		 * Only if a href attribute it's setted i a html tag it will take that a url as target, otherwhise will send to class
+		 */
+		if ($(this).attr('href') === undefined) {
+			clickToProcess($(this).attr('class'))
+		}else{
+			window.location.href = $(this).attr('href');			
+		}
 	});
 	/**
 	 * Reload the page on back button or hash change
@@ -25,10 +34,7 @@ function declarePageCalls() {
 		loadHash();
 	}
 }
-
 function clickToProcess(route) {
 	positions = new SettedPositions(positionsArray).navigate(route)
 }
-
-localStorage.setItem('home', positionsArray[0])
 //--------------------------------------------------------------------------------------------

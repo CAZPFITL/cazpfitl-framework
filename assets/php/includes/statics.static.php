@@ -46,7 +46,7 @@
 	/**
 	 * PRINTING THE VIEW
 	 **/ 
-	function viewPrint($view) {
+	function hashUpload($view) {
 		echo "	
 				<script>
 					window.location.hash = '",$view,"';

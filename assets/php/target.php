@@ -40,9 +40,11 @@
 			$filename = "../../pages/$positions[$i].php";
 			if (file_exists($filename)) {
 				$notFound++;
+				hashUpload($_SESSION["position"]);
 				include($filename);
 			}else {
 				$notFound++;
+				hashUpload($_SESSION["position"]);
 				insertPage('file-missing.dontmissthis');
 			}
 		}
@@ -52,10 +54,10 @@
 	 * Send 404 in case of not founding the seached hash or page
 	 */
 	if ($notFound === 0) {
+		hashUpload($_SESSION["position"]);
 		insertPage("404.dontmissthis");
 	}
 	
-	viewPrint($_SESSION["position"]);
 ?>
 <script>$.ajax({url: 'assets/javascript/_scripts.js',dataType: "script"});</script>
 
