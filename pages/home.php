@@ -3,6 +3,7 @@
 ?>
 
 <div class="container">
+    <a class="venta">venta</a>
     <h1 class="welcome">¡WELCOME!</h1>
     <p>This is my micro-framework, It allows you a fast deployment of pages using an array to declare.</p>
     <p>It has a system that allows to create dynamic html link tags (it uses the first class_</p>
