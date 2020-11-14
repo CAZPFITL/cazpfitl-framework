@@ -14,50 +14,48 @@
 	/**
 	 * SET POSITIONS
 	 **/ 
-	$position = $_SESSION["positions"];
-	$xax = 0;
+	$positions = $_SESSION["positions"];
+	$notFound = 0;
 
 	/**
 	 * POSITION TRANSFER TO JAVASCRIPT
 	 **/ 
-	echo '<script>positionsArray = ',json_encode($position),';</script>';
+	echo '<script>positionsArray = ',json_encode($positions),';</script>';
 	
 	/**
 	 * LOAD VALIDATION
 	 **/ 
 	if(!empty($_POST['hash_position'])){ $_SESSION["position"] = $_POST['hash_position']; }
+	else {
+		$_SESSION["position"] = $_SESSION["positions"][0];
+	}
 
-	/**
-	 * hash set at the load 
-	 */
-	viewPrint($_SESSION["position"]);
-
-	/**
+	/**	
 	 * Proces the page called
 	 */
-	for ($i=0; $i < sizeof($position); $i++) { 
-
-		$filename = "../../pages/$position[$i].php";
+	for ($i=0; $i < sizeof($positions); $i++) { 
+		//set file position
 		//if exist in the array
-		if ($_SESSION["position"] === $position[$i]){
-			//if the file exist
+		if ($_SESSION["position"] === $positions[$i]){
+			$filename = "../../pages/$positions[$i].php";
 			if (file_exists($filename)) {
-				$xax++;
-				insertPage($position[$i]);
+				$notFound++;
+				include($filename);
 			}else {
-				$xax++;
+				$notFound++;
 				insertPage('file-missing.dontmissthis');
 			}
 		}
 	}
-
+	
 	/**
 	 * Send 404 in case of not founding the seached hash or page
 	 */
-	if ($xax === 0) {
+	if ($notFound === 0) {
 		insertPage("404.dontmissthis");
 	}
 	
+	viewPrint($_SESSION["position"]);
 ?>
 <script>$.ajax({url: 'assets/javascript/_scripts.js',dataType: "script"});</script>
 

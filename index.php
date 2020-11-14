@@ -1,4 +1,5 @@
 <?php 
+
 	/**
 	 * SET POSITIONS
 	 **/ 
@@ -10,5 +11,5 @@
 		"propiedades"
 	];
 
-	include 'assets/php/functions.php';
+	include ('assets/php/functions.php');
 ?>
