@@ -5,15 +5,15 @@
     <p>used in the link tag to call the page with the same name)</p>
     <br>
     <br>
-    <h2 class="welcome">¡START!</h2>
-    <p>To start creating pages, you must create a page on "pages" folder</p>
-    <p>the next step it's adding the page name to the positions array!! (It must be the same name as the file).</p>
-    <p>The positions array it's located on "index.php"</p>
+    <h2 class="welcome">¡READY TO START!</h2>
+    <p>To start creating pages, you must create a page on "pages" folder.</p>
+    <p>The next step it's adding the page name to the positions array!! (It must be the same name as the file).</p>
+    <p>The positions array it's located on "index.php" This is it! Now that page already exist!</p>
     <br>
-    <br>
-    <h2 class="welcome">NOW!</h3>
-    <p>This is it! Now that page already exist!</p>
     <p>Don't Forget: The first element in the array will be the home page.</p>
+    <br>
+    <br>
+    <h2 class="welcome">¡LINKS!</h3>
     <br>
     <p>As you can see, this framework uses #hashes to set the locations</p>
     <p>So for links you have to add a link tag (< a >). The first class setted will be read by the framework</p>
