@@ -66,5 +66,9 @@
     <p>Mmm talking about database connections!!</p>
     <p>You can add a database connection to the file</p>
     <p>"_bdconnection.static.php" located in 'assets/php/includes' folder</p>
+    <br>
+    <br>
+    <p>you can download a copy here:</p>
+    <a href="http://cmonroy.pro/cazpfitl-framework.zip">DOWNLOAD</a>
     <span class="signature">-CAZPFITL</span>
 </div>
