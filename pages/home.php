@@ -1,7 +1,3 @@
-<?php 
-    /* insertShared('navbar','pages');  */
-?>
-
 <div class="container">
     <h1 class="welcome">¡WELCOME!</h1>
     <p>This is my micro-framework, It allows you a fast deployment of pages using an array to declare.</p>
@@ -18,8 +14,10 @@
     <p>Don't Forget: The first element in the array will be the home page.</p>
     <br>
     <p>As you can see, this framework uses #hashes to set the locations</p>
-    <p>So for links you have to add a link tag. The first set class will be read by the framework</p>
-    <p>and automatically send the user to the page named in positions array.</p> 
+    <p>So for links you have to add a link tag (< a >). The first class setted will be read by the framework</p>
+    <p>and will automatically send the user to the page named in positions array.</p> 
+    <p>This only if the href attribute is not set, because if the href is set</p>
+    <p>this url will have priority on the action.</p>
     <br>
     <a class="link">link</a>
     <a class="nofile">no file</a>
