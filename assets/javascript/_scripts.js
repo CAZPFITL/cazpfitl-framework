@@ -4,7 +4,7 @@
 	if (typeof document !== "undefined") {
 		declarePageCalls();
 		// load js objects
-		$.ajax({ url: 'assets/javascript/objects/_plugins.js', dataType: "script", });
+		$.ajax({ url: 'assets/javascript/objects/_plugins.js', dataType: "script"});
 	}
 
 })();
@@ -19,9 +19,13 @@ function declarePageCalls() {
 		 * Right click
 		 */
 		if (event.which === 3) {
-			if ($(this).attr('href') === undefined) {
-				alert("You've tried to open context menu"); //here you draw your own menu
-				event.preventDefault();
+			if($(this).attr('href') === undefined) {
+				if(event.type === 'contextmenu'){
+					$(event.target).append('<div id="menu-click"><ul class="menu"><li class="option">Copy</li><li class="option">Copy Link</li><li class="option">Open Link in New Tab</li><li class="option">Open Link in New Window</li><li class="option">Open Link in New Incognito Window</li></ul></div>');
+					event.preventDefault();
+				}
+			}else {
+				return
 			}
 		}
 
@@ -55,7 +59,13 @@ function declarePageCalls() {
 	window.onhashchange = function () {
 		loadHash();
 	}
+	/**
+	 * 
+	 */
+	$("body").css({"position":"relative"});
 }
+
+
 function clickToProcess(route) {
 	positions = new SettedPositions(positionsArray).navigate(route)
 }
