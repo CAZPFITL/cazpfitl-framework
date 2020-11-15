@@ -18,9 +18,11 @@
     <p>So for links you have to add a link tag <?php echo htmlspecialchars(' <a> ') ?>. The first class setted will be read by the framework</p>
     <p>and will automatically update all those locations in the page at load process:</p> 
     <br>
-    <img src="assets/images/1.png" alt="1">
-    <span>>>></span>
-    <img src="assets/images/2.png" alt="2">
+    <div style="display:flex;flex-direction:column;align-items:center;">
+        <img src="assets/images/1.png" alt="1">
+        <p>▼</p>
+        <img src="assets/images/2.png" alt="2">
+    </div>
     <br>
     <p>This only if the href attribute is not set, because if the href is set</p>
     <p>this url will have priority on the action.</p>
