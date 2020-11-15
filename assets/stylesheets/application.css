@@ -51,7 +51,10 @@ a {
   position: relative;
   font-family: "Special Elite", cursive;
   height: inherit;
-  padding: 20px 80px 80px; }
+  padding: 20px 20px 35px; }
+  @media (max-width: 500px) {
+    .site-wrapper-response {
+      padding: 20px; } }
   .site-wrapper-response .container {
     display: block;
     max-width: 900px;
@@ -60,7 +63,10 @@ a {
       padding: 0px 0px 20px; }
     .site-wrapper-response .container h1.welcome {
       font-size: 3.6em;
-      padding: 10px 0px 35px; }
+      padding: 20px 0px 50px; }
+      @media (max-width: 500px) {
+        .site-wrapper-response .container h1.welcome {
+          padding: 10px 0px 60px; } }
     .site-wrapper-response .container .signature {
       display: block;
       width: 100%;
@@ -75,7 +81,9 @@ a {
       transform: scale(1, 0.9); }
   .site-wrapper-response .display {
     width: 100%;
-    height: auto; }
+    height: auto;
+    min-width: 335px;
+    max-width: 500px; }
   .site-wrapper-response a {
     cursor: pointer;
     transition: 0.2s; }
@@ -83,7 +91,11 @@ a {
       transition: 0.2s; }
   .site-wrapper-response blockquote {
     background: #f3f3f3;
-    padding: 20px; }
+    padding: 20px 25px;
+    width: 100%;
+    min-width: 335px;
+    max-width: 500px;
+    margin: 20px auto; }
     .site-wrapper-response blockquote a {
       padding-top: 10px; }
   .site-wrapper-response .a {

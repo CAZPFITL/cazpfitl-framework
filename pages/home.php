@@ -28,7 +28,7 @@
     <br>
     <blockquote>
         <span><</span><span class="a">a </span><span class="b">class</span><span>=</span><span class="c">"link"</span><span>>link<</span>/<span class="a">a</span>>
-        <a href="" class="link">link</a>
+        <a class="link">link</a>
     </blockquote>
     <blockquote>
         <span><</span><span class="a">a </span><span class="b">class</span><span>=</span><span class="c">"nofile"</span><span>>no file<</span>/<span class="a">a</span>>
@@ -69,7 +69,7 @@
     <p>"_bdconnection.static.php" located in 'assets/php/includes' folder</p>
     <br>
     <br>
-    <p>you can download a copy here:</p>
-    <a href="http://cmonroy.pro/cazpfitl-framework.zip">DOWNLOAD</a>
-    <span class="signature">-CAZPFITL</span>
+    <!-- <p>you can download a copy here:</p>
+    <a href="http://cmonroy.pro/cazpfitl-framework.zip">DOWNLOAD</a>-->
+    <span class="signature">-CAZPFITL</span> 
 </div>
