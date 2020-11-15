@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 html {
   box-sizing: border-box; }
 
@@ -48,22 +50,29 @@ a {
   background: #fafafa;
   position: relative;
   font-family: "Special Elite", cursive;
-  height: inherit; }
+  height: inherit;
+  padding: 20px 80px 80px; }
   .site-wrapper-response .container {
     display: block;
     max-width: 900px;
-    padding: 80px 0px;
     margin: auto; }
     .site-wrapper-response .container .welcome {
       padding: 0px 0px 20px; }
+    .site-wrapper-response .container h1.welcome {
+      font-size: 3.6em;
+      padding: 10px 0px 35px; }
     .site-wrapper-response .container .signature {
       display: block;
       width: 100%;
       text-align: right;
       font-style: italic;
       padding-top: 60px;
-      padding-right: 20%;
-      font-size: 1.5em; }
+      font-size: 1.5em;
+      font-size: 2.2em;
+      text-shadow: 1px 1px 10px #00000070;
+      letter-spacing: 3px;
+      font-family: "Bad Script", cursive;
+      transform: scale(1, 0.9); }
   .site-wrapper-response .display {
     width: 100%;
     height: auto; }
@@ -72,5 +81,20 @@ a {
     transition: 0.2s; }
     .site-wrapper-response a:hover {
       transition: 0.2s; }
+  .site-wrapper-response blockquote {
+    background: #f3f3f3;
+    padding: 20px; }
+    .site-wrapper-response blockquote a {
+      padding-top: 10px; }
+  .site-wrapper-response .a {
+    color: #e65746; }
+  .site-wrapper-response .b {
+    color: #996800; }
+  .site-wrapper-response .c {
+    color: #59a857; }
+  .site-wrapper-response .d, .site-wrapper-response a {
+    color: #0088ff; }
+  .site-wrapper-response p {
+    line-height: 200%; }
 
 /*# sourceMappingURL=application.css.map */

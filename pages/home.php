@@ -1,29 +1,10 @@
-<style>
-    blockquote {
-        background: #f3f3f3;
-        padding: 20px;
-    }
-    .a {
-        color:#c70101;
-    }
-    .b {
-        color:#448244;
-    }
-    .c {
-        color:#c79d00;
-    }
-    .d,a {
-        color:#0088ff;
-    }
-    p{
-        line-height: 200%;
-    }
-</style>
 <div class="container" style="padding:40px;">
-    <h1 class="welcome">¡WELCOME!</h1>
-    <p>This is my micro-framework, It allows you a fast deployment of pages using an array to declare.
-    It has a system that allows to create dynamic html link tags (it uses the first class 
-    used in the link tag to call the page with the same name)</p>
+    <h1 class="welcome" style="text-align:center;">CAZPFITL'S FRAMEWORK</h1>
+    <br>
+    <h2 class="welcome">¡WELCOME!</h2>
+    <p>This is my micro-framework, It allows you a fast deployment of pages using an array to declare them.
+    It has a system that allows to create dynamic html link tags (it uses the first class used in the link tag to call the page with the same name)</p>
+    <p>You can use jquery, php, sql, and more with it, and include any plugin.</p>
     <br>
     <h2 class="welcome">¡READY TO START!</h2>
     <p>To start creating pages, you must create a page on "pages" folder.
@@ -46,15 +27,15 @@
     this url will have priority on the action.</p>
     <br>
     <blockquote>
-        <span><</span><span class="a">a</span><span> </span><span class="b">class</span><span>=</span><span class="c">"link"</span><span>>link<</span>/<span class="a">a</span>>
-        <a class="link">link</a>
+        <span><</span><span class="a">a </span><span class="b">class</span><span>=</span><span class="c">"link"</span><span>>link<</span>/<span class="a">a</span>>
+        <a href="" class="link">link</a>
     </blockquote>
     <blockquote>
-        <span><</span><span class="a">a</span><span> </span><span class="b">class</span><span>=</span><span class="c">"nofile"</span><span>>no file<</span>/<span class="a">a</span>>
+        <span><</span><span class="a">a </span><span class="b">class</span><span>=</span><span class="c">"nofile"</span><span>>no file<</span>/<span class="a">a</span>>
         <a class="nofile">no file</a>
     </blockquote>
     <blockquote>
-        <span><</span><span class="a">a</span><span> </span><span class="b">class</span><span>=</span><span class="c">"404"</span><span>>404<</span>/<span class="a">a</span>>
+        <span><</span><span class="a">a </span><span class="b">class</span><span>=</span><span class="c">"404"</span><span>>404<</span>/<span class="a">a</span>>
         <a class="404">404</a>
     </blockquote>
     <blockquote>
@@ -68,13 +49,13 @@
     <p>You only have to call one this functions:</p>
     <br>
     <blockquote>
-        <p><?php echo htmlspecialchars('<?php') ?></p>
+        <span class="a"><?php echo htmlspecialchars('<?php') ?></span>
             <blockquote>
-            <p>insertShared($target,$from);</p>
-            <p>insertPage($target);</p>
-            <p>insertObject($target);</p>
+            <p><span class="d">insertShared($target,$from)</span>;</p>
+            <p><span class="d">insertPage($target)</span>;</p>
+            <p><span class="d">insertObject($target)</span>;</p>
             </blockquote>
-        <p><?php echo htmlspecialchars('?>') ?></p>
+        <span class="a"><?php echo htmlspecialchars('?>') ?></span>
     </blockquote>
     <br>
     <p>-The target part, it's pretty obvious, but just in case, it's the name of the file you will add</p>

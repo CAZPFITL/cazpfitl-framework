@@ -45,10 +45,6 @@ function declarePageCalls() {
 	window.onhashchange = function () {
 		loadHash();
 	}
-	/**
-	 * 
-	 */
-	$("body").css({"position":"relative"});
 }
 
 
