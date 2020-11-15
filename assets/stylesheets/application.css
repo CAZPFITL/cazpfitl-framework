@@ -13,12 +13,6 @@ a {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-#menu-click {
-  position: absolute; }
-
-.link {
-  position: relative; }
-
 ::selection {
   background: transparent;
   -webkit-touch-callout: none;

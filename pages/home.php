@@ -12,18 +12,23 @@
     <br>
     <p>Don't Forget: The first element in the array will be the home page.</p>
     <br>
-    <br>
     <h2 class="welcome">¡LINKS!</h3>
     <br>
     <p>As you can see, this framework uses #hashes to set the locations</p>
-    <p>So for links you have to add a link tag (< a >). The first class setted will be read by the framework</p>
-    <p>and will automatically send the user to the page named in positions array.</p> 
+    <p>So for links you have to add a link tag <?php echo htmlspecialchars(' <a> ') ?>. The first class setted will be read by the framework</p>
+    <p>and will automatically update all those locations in the page at load process:</p> 
+    <br>
+    <img src="assets/images/1.png" alt="1">
+    <span>>>></span>
+    <img src="assets/images/2.png" alt="2">
+    <br>
     <p>This only if the href attribute is not set, because if the href is set</p>
     <p>this url will have priority on the action.</p>
     <br>
     <blockquote>
         <?php echo htmlspecialchars('<a class="link">link</a>') ?>
         <a class="link">link</a>
+
     </blockquote>
     <br>
     <blockquote>
