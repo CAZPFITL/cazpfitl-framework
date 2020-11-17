@@ -13,7 +13,7 @@
 
 		echo '            
 		<div class="site-wrapper-response"></div>
-		<script src="assets/javascript/_load-page.js"></script>';
+		<script src="assets/javascript/lib/_load-page.js"></script>';
 
 	}
 

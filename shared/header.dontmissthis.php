@@ -22,7 +22,7 @@
 
 		<!-- Top Scripts -->
 		<script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
-		<script src="assets/javascript/jquery.min.js"></script>
+		<script src="assets/javascript/lib/jquery.min.js"></script>
 
 	</head>
 
