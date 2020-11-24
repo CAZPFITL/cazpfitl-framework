@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 
 $font-primary: "Special Elite", cursive;
+$font-secondary: 'Bad Script', cursive;
+$font-third: 'Baloo 2', cursive;
 
 $font-icon: "Icomoon";
 
@@ -103,3 +107,4 @@ $screen-v5: 380px;
 
 @import "../before/_box-sizing";
 @import "../before/_keyframes";
+@import "../before/_selector";

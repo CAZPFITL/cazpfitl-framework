@@ -1,13 +1,8 @@
 <?php 
 
 	/**
-	 * SET POSITIONS
+	 * SET HOME POSITION
 	 **/ 
-	$positions = [
-		"home", /* => This will be the home page!! */
-		"link",
-		"nofile"
-	];
-
+	$positions = ["home"];
 	include ('assets/php/functions.php');
 ?>
